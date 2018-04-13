@@ -1,8 +1,10 @@
+![es-logo.png](es-logo.png) 
+
 # EmulationStation Plymouth Theme
 
-This is a [EmulationStation](https://github.com/RetroPie/EmulationStation) [splash screen](https://wiki.ubuntu.com/Plymouth) for Ubuntu.
+This is a [EmulationStation](https://github.com/RetroPie/EmulationStation) splash screen (i.e, a [plymouth](https://wiki.ubuntu.com/Plymouth) theme) for Ubuntu.
 
-It's based on the `ubuntu-logo-scale-2` plymouth.
+It presents a simple EmulationStation theme in a black background with progress dots. It's based on the `ubuntu-logo-scale-2` plymouth.
 
 ## Install
 
