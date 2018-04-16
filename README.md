@@ -16,7 +16,7 @@ Then run the following commands to install this theme:
     sudo git clone https://github.com/raelgc/es-logo.git
     sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/es-logo/es-logo.plymouth 100
 
-Now it's installed, but it's not yet the default theme.
+Now it's installed, but it's **not** the default theme yet.
 
 ## Make it the default 
 
