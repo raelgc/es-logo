@@ -40,10 +40,6 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 Select `es-logo.plymouth` number (in the above sample, `1`) as default and press <kbd>Enter</kbd>.
 
-Now we need to update `initram` with the new default theme:
-
-    sudo update-initramfs -u
-
 Reboot.
 
 ## Uninstall
