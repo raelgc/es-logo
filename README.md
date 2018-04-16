@@ -24,7 +24,21 @@ Run the following commands to make it the default `plymouth` theme:
 
     sudo update-alternatives --config default.plymouth
 
-You'll see a list of available themes. Select `es-logo.plymouth` number as default and press <kbd>Enter</kbd>.
+You'll see a list of available themes like this:
+
+```
+There are 2 choices for the alternative default.plymouth (providing /usr/share/plymouth/themes/default.plymouth).
+
+  Selection    Path                                                         Priority   Status
+------------------------------------------------------------
+* 0            /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth   100       auto mode
+  1            /usr/share/plymouth/themes/es-logo/es-logo.plymouth           100       manual mode
+  2            /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth   100       manual mode
+
+Press <enter> to keep the current choice[*], or type selection number:
+```
+
+Select `es-logo.plymouth` number (in the above sample, `1`) as default and press <kbd>Enter</kbd>.
 
 Now we need to update `initram` with the new default theme:
 
