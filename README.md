@@ -10,7 +10,7 @@ It presents a simple EmulationStation logo in a black background with progress d
 
 We'll use `git` to install, so make sure you have it installed (if not, run `sudo apt install git`).
 
-Then run the following commands to install this theme:
+Then run the following commands to install this theme (if you're under Ubuntu **14.04**, replace all `/usr/share/plymouth` with `/lib/plymouth`):
 
     cd /usr/share/plymouth/themes
     sudo git clone https://github.com/raelgc/es-logo.git
@@ -40,11 +40,15 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 Select `es-logo.plymouth` number (in the above sample, `1`) as default and press <kbd>Enter</kbd>.
 
+Now update `initram`:
+
+    sudo update-initramfs -u
+
 Reboot.
 
 ## Uninstall
 
-To remove it just run:
+To remove it just run (if you're under Ubuntu **14.04**, replace `/usr/share/plymouth` with `/lib/plymouth`):
 
     sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/es-logo/es-logo.plymouth
 
